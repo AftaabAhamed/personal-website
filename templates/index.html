@@ -1,0 +1,141 @@
+<!doctype html>
+
+<html lang="en">
+   
+   
+    <head>
+
+
+        <!-- META -->
+        <meta charset="utf-8">
+        <meta name="robots" content="noodp">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+        <!-- PAGE TITLE -->
+        <title>Aftaab's Portfolio</title>
+
+        <!-- FAVICON -->
+        <link rel="shortcut icon" href="assets/img/favicon.png">
+
+        <!-- FONTS -->
+        <link href="https://fonts.googleapis.com/css?family=Bellefair&amp;subset=latin-ext" rel="stylesheet">
+
+        <!-- STYLESHEETS -->
+        <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='assets/css/plugins.css')}}">
+        <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='assets/css/main.css')}}">
+
+
+    </head>
+
+
+    <body>
+    
+        <!-- HERO -->
+        <div class="hero">
+
+
+            <!-- FRONT CONTENT -->
+            <div class="front-content">
+                <div class="left-content" style="float: inline-end"> 
+                    <h1>Hi! I’m <span>Aftaab Ahamed</span></h1>
+                </div>
+                <br>
+                <div class="right-content" style="float: right">
+                    <img src="{{url_for('static', filename='assets/img/myphoto.jpg')}}" class="img-responsive logo" alt="logo" width="128" height="256" style="border-radius: 10%;">
+                </div>
+                <h2>I am a final year engineering student interested in Robotics, Machine learning and AI.</p>
+            </div>
+            <!-- /FRONT CONTENT -->
+
+
+        </div>
+        <!-- /HERO -->
+        
+        
+        <!-- PORTFOLIO -->
+        <div class="portfolio">
+            
+
+            <ul>
+                <li>
+                    <p style="font-size: xx-large"> <b>Personal Projects :</b> </p>
+                    <ul style="font-size: x-large;">
+                        <li>
+                            <p><b>Classification of spectra of -OH and -RCOOH groups using CNNs <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>:</b></p>
+                            <p style="color: grey;"><i>Automatically classify spectra of the functional groups by training a CNN</i></p>
+                            <ul>
+                                <li> <p><b>Tools & technologies used :</b>TensorFlow, numpy, openCV, pandas, selenium, pyautogui, matplotlib</p></li>
+                                <li> <p>Utilised selenium and pyautogui to collect training data by scraping the SDBS spectra database</p></li>
+                                <li> <p>Preprocess spectra graph data using openCV</p></li>
+                                <li> <p>Trained TensorFlow CNN classification model that yielded 85% accuracy on validation dataset</p></li>
+                            </ul>
+                            
+                        </li>
+
+                        <li>
+                            <p><b>Voice Assistant/Chatbot <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>:</b></p>
+                            <p style="color: grey;"><i>Developed voice assistant using google-gemini api</i></p>
+                            <ul>
+                                <li> <p><b>Tools & technologies used :</b>Python, Gemini LLM api, gTTs, picovoice api, NLTK</p></li>
+                                <li> <p>Built a Voice assistant using gemini LLM api for generating responses</p></li>
+                                <li> <p>Wake word detection implemented using picovoice api and text to speech using gTTs library</p></li>
+                                <li> <p>Calculated cosine similarity of sentences using NLTK for action command detection</p></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <p><b>Face recognition and tracking system for mobile robot <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a> :</b></p>
+                            <p style="color: grey;"><i>Developed face tracking system for robotic application</i></p>
+                            <ul>
+                                <li> <p><b>Tools & technologies used :</b>VGGface, YOLOv5, PyTorch, openCV</p></li>
+                                <li> <p>Face recognition using the pretrained VGGface model and utilised YOLOv5 models for detecting for person detection</p></li>
+                                <li> <p>Utilised SORT(Simple Online Realtime Tracking) algorithm for tracking overtime</p></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <p><b>Physics Informed Neural Networks <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>:</b></p>
+                            <p style="color: grey;"><i>Currently pursuing my capstone project in PINNs</i></p>
+                            <ul>
+                                <li> <p><b>Tools & technologies used :</b>Pytorch, Pandas, Numpy, Python</p></li>
+                                <li> <p>Built a Voice assistant using gemini LLM api for generating responses</p></li>
+                                <li> <p>Wake word detection implemented using picovoice api and text to speech using gTTs library</p></li>
+                                <li> <p>Calculated cosine similarity of sentences using NLTK for action command detection</p></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+        <!-- /PORTFOLIO -->
+        
+        
+        <!-- FOOTER -->
+        <div class="footer">
+            
+            
+            <!-- FOOTER INNER -->
+            <div class="footer-inner">
+  
+                <!-- SOCIAL ICONS -->
+                <ul class="social-icons scroll-animated-from-right">
+
+                    <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+
+                </ul>
+                <!-- /SOCIAL ICONS -->
+
+            
+            </div>
+            <!-- /FOOTER INNER -->
+            
+
+        </div>
+        <!-- /FOOTER -->
+
+    </body> 
+    
+    
+</html>
